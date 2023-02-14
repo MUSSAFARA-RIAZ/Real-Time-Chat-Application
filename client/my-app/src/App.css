@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300&display=swap');
+
+.joinRoom_Header{
+  font-size: 30px;
+ text-align: center;
+  font-family: 'Poppins';
+  font-weight: bold;
+
+
+
+}
+.joinRoom_Inp{
+  padding: 20px;
+  display: block;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  color: black;
+  border-radius: 10px;
+  border: 2px solid black;
+
+}
+::placeholder{
+  color: black;
+
+}
+.joinRoom_btn{
+  background-color: rgb(3, 61, 3);
+  color: white;
+  font-family: 'Poppins';
+  padding: 20px;
+  width: 20%;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  border: 2px solid green;
+
+
+}
+.chat-window{
+  width: 300px;
+  height: 420px;
+ 
+  margin: auto;
+}
+.chat-header{
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.chat-window .chat-body {
+  height: calc(450px - (45px + 70px));
+  border: 1px solid #263238;
+  background: #fff;
+
+  position: relative;
+}
+
+.chat-footer input{
+  padding: 7px;
+  border: 2px solid black;
+  width: 75%;
+
+}
+.chat-footer button{
+  padding: 7px;
+  border: 2px solid black;
+  background-color: green;
+  color: white;
+  width: 57.1px;
+
+}
